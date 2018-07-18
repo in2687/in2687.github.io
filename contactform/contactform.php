@@ -1,5 +1,6 @@
 <?php
 
+echo "<script>alert(\"이렇게 띄우면 되자나\");</script>";
 if(empty($_POST['name'])
    empty($_POST['email'])
    empty($_POST['subject'])
