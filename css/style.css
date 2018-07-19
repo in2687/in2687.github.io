@@ -151,7 +151,7 @@ img.img-polaroid {
 
 .hidden-top-inner ul {
   list-style: none;
-  margin-top: 30px;
+  margin-top: 30px; /* hidden font 위치*/
   margin-left: 0;
 }
 
@@ -203,7 +203,7 @@ img.img-polaroid {
 #header-hidden-link a.toggle-link>i:before {
   content: "\f067";
   font-family: 'FontAwesome';
-  font-size: 13px;
+  font-size: 13px; /* + font*/
   font-weight: normal;
   font-style: normal;
 }
@@ -250,11 +250,11 @@ header .logo {
 }
 
 header .logo img {
-  margin-bottom: 10px;
+  margin-bottom: -10px;
 }
 
 header .logo h1 {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0;
 }
 
@@ -262,7 +262,7 @@ header .logo h1 {
 
 .headnav {
   float: right;
-  margin: 35px 0 0 0;
+  margin: 5px 0 0 0; /*home icon 세로 위치*/
   border-bottom: 1px dotted #e6e6e6;
 }
 
@@ -273,12 +273,12 @@ header .logo h1 {
 
 .headnav ul li {
   display: inline;
-  margin-left: 10px;
+  margin-left: -30px; /*home icon 가로 위치*/
 }
 
 .headnav ul li a {
   outline: 0;
-  font-size: 12px;
+  font-size: 20px; /*home icon size*/
   font-weight: 600;
 }
 
@@ -300,13 +300,14 @@ header ul.nav li {
 }
 
 header ul.nav li a {
-  font-size: 12px;
+  font-size: 15px; /*dropdown MENU font size*/
   border: none;
   font-weight: 300;
   text-transform: uppercase;
 }
 
 .navbar .nav>li>a {
+  font-size: 18px; /*MENU font size*/
   color: #111;
   text-shadow: none;
 }
@@ -442,7 +443,7 @@ select.selectmenu {
   opacity: .9;
 }
 
-/* The Nivo Slider styles */
+/* The Nivo Slider styles  index1*/
 
 #nivo-slider {
   position: relative;
@@ -684,7 +685,7 @@ a.nivo-prevNav:before {
 ==================================== */
 
 section.callaction {
-  background: #f9f9f9;
+  background: #f1f1f1;
   padding: 50px 0 0 0;
 }
 
@@ -2085,7 +2086,7 @@ a.scrollup i:hover {
 .relative {
   position: relative;
 }
-
+/* center */
 .aligncenter {
   text-align: center;
 }
@@ -2216,6 +2217,10 @@ article img.pull-right, article .align-right {
 
 .margintop40 {
   margin-top: 40px;
+}
+
+.margincenter {
+  margin: auto;
 }
 
 /* =============================

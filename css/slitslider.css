@@ -121,6 +121,7 @@
 	left: 0;
 }
 
+/*slider demo2 index*/
 .demo-2 .sl-slider-wrapper {
 	width: 100%;
 	height: 600px;
@@ -140,7 +141,7 @@
 }
 
 .sl-slider h2 {
-	font-size: 100px;
+	font-size: 70px;
 	line-height:1em;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
 	letter-spacing:-2px;
@@ -473,19 +474,19 @@
 }
 
 .demo-2 .bg-img-1 {
-	background-image: url(../img/slides/slitslider/1.jpg);
+	background-image: url(../img/slides/slitslider/5.jpg);
 }
 .demo-2 .bg-img-2 {
-	background-image: url(../img/slides/slitslider/2.jpg);
+	background-image: url(../img/slides/slitslider/1.jpg);
 }
 .demo-2 .bg-img-3 {
-	background-image: url(../img/slides/slitslider/3.jpg);
+	background-image: url(../img/slides/slitslider/2.jpg);
 }
 .demo-2 .bg-img-4 {
-	background-image: url(../img/slides/slitslider/4.jpg);
+	background-image: url(../img/slides/slitslider/3.jpg);
 }
 .demo-2 .bg-img-5 {
-	background-image: url(../img/slides/slitslider/5.jpg);
+	background-image: url(../img/slides/slitslider/4.jpg);
 }
 
 /* Animations for content elements */
