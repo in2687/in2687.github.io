@@ -53,7 +53,7 @@
       <div class="container">
         <!-- hidden top area toggle link -->
         <div id="header-hidden-link">
-          <a href="#" class="toggle-link" title="Click!!" data-target=".hidden-top"><i></i>Open</a>
+          <a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
         </div>
         <!-- end toggle link -->
         <div class="row nomargin">
@@ -69,7 +69,6 @@
           <div class="span4">
             <div class="logo">
               <a href="index.html"><img src="img/logo5.png" alt="" class="logo" /></a>
-              <!--<h1>Flat and trendy bootstrap template</h1>-->
             </div>
           </div>
           <div class="span8">
@@ -101,8 +100,8 @@
 						<li><a href="product_04.html">장애인 경사로</a></li>
 						<li><a href="product_05.html">종합 안내 촉지도</a></li>
                       </ul>
-                    </li>
-                    <li class="active">
+                    </li> 
+					<li>
                       <a href="contact.html">오시는 길 </a>
                     </li>
                   </ul>
@@ -120,99 +119,63 @@
         <div class="row">
           <div class="span4">
             <div class="inner-heading">
-              <h2>오시는 길</h2>
+              <h2>종합안내<b>촉지도</b></h2>
             </div>
           </div>
           <div class="span8">
             <ul class="breadcrumb">
               <li><a href="index.html"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
-              <li><span class="highlight">오시는 길</span></li>
+              <li><a href="#">제품소개</a><i class="icon-angle-right"></i></li>
+              <li class="active"><span class="highlight">종합 안내 촉지도</span></li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-
-	<!--Naver map -->
     <section id="content">
-	  <div class="container">
+      <div class="container">
         <div class="row">
           <div class="span12">
-		    <h4 class="heading">부경케어건설(주) <strong> 찾아오시는 길</strong><span></span></h4>
-			<div class="wrapper">
-			  <div class="testimonial">
-                <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=RFqgTE8AdkCacIwHz1vW&submodules=geocoder"></script>
-				  <div id="map" style="width: 100%; height: 300px; overflow: hidden;"></div>
-				    <script type="text/javascript">
-					  var oPoint = naver.maps.LatLng(35.076962, 128.981156 ); //LatLng 값이 y, x 좌표
-					  oMap = new naver.maps.Map('map', {
-							activateBicycleMap: false,
-							activateTrafficMap: false,
-							enableDblClickZoom: false,
-							enableDragPan     : true,
-							enableWheelZoom   : true,
-							mapMode           : 0,
-							minMaxLevel       : [
-								1, 14
-							], //표시될 div의 id 입니다.
-							point             : oPoint,
-							zoom              : 11 //기본 지도 줌 크기
-						});
-							  oMap.setCenter(oPoint);
-							  //아래는 위에서 지정한 좌표에 마커를 표시하는 소스 입니다.
-								var markerOptions = {position: oPoint,icon: {
-											 url: 'img/map_point2.png',
-											 size: new naver.maps.Size(49,44),
-										   anchor: new naver.maps.Point(20,44)
-																							   }
-															  };
-							   var oMarker = new naver.maps.Marker(markerOptions);
-					  //icon 이미지를 바꿔서 사용할 수 있습니다.
-					  oMarker.setMap(oMap);
-					  //아래는 사이드에 줌 컨트롤을 추가하는 소스 입니다.
-								oMap.setOptions({
-										  zoomControl: true,
-										  zoomControlOptions: {
-										  position: naver.maps.Position.TOP_LEFT
-																		 }
-													   });                        
-				  </script>
-		        </div>
-				<div class="testimonial">
-					<div class="author aligncenter">
-						<p class="name" ><i class="font-icon-map-marker-2" ></i> 부산광역시 사하구 다대로 277번길 85 <span class="info"> <a href="index.html">부경케어건설(주)</a></span></p>
-						 <p>
-						 <p class="name" ><i class="icon-phone" ></i> 1588-0698</p>
-						 <p>
-						 <p class="name" ><i class="icon-envelope-alt" ></i><a href="mailto:bnkc@naver.com">bnkc@naver.com</a></p>
-
-					</div>				
-				</div>
-			</div>
-		  </div>
-        </div>
-		<div class="row">
-
-          <div class="span12">
-		    <div class="author aligncenter">
-				<p>
-				  <a title="부경케어건설(주) 네이버 지도 보기 새 창" href="https://map.naver.com/?searchCoord=bc4012f8122578ab13b8543a979d22c62a18106acbada4aef0be5ff4c1a65a59&query=64uk64yA66GcIDI3N%2BuyiOq4uCA4NQ%3D%3D&tab=1&lng=c6a89e9bcb1e7c82221828741c23ced0&mapMode=0&mpx=dbce3cf56130061474b4e59c9bfaf0b08ecb22c96f03b61fda61c43ba7d7fad6ad84a18fe861c5892c7b0917d19578923ba234b637418335db85c7cb3796fdb7&lat=9119a4f1a5e390f95647c4fb0dd34df8&dlevel=12&enc=b64&menu=location" target="_blank">
-					<img src="img/naver.jpg" alt="" class="logo" />
-				  </a>
-				  <a title="부경케어건설(주) 다음 지도 보기 새 창" href="http://map.daum.net/?urlX=951814&urlY=443341&q=%EB%B6%80%EC%82%B0+%EC%82%AC%ED%95%98%EA%B5%AC+%EB%8B%A4%EB%8C%80%EB%A1%9C277%EB%B2%88%EA%B8%B8+85" target="_blank">
-					<img src="img/daum.jpg" alt="" class="logo" />
-				  </a>
-				  <a title="부경케어건설(주) 구글 지도 보기 새 창" href="https://goo.gl/maps/QuqTGPLd7o82" target="_blank">
-					<img src="img/google.jpg" alt="" class="logo" />
-				  </a>
-				</p>
-		     </div> 
-		    </div>
-		  </div>
+            <ul class="portfolio-categ ">
+              <li class=""><a href="portfolio-4cols-0.html">All</a></li>
+              <li class=""><a href="portfolio-4cols-1.html">장애인 점자블럭</a></li>
+              <li class=""><a href="portfolio-4cols-2.html">장애인 화장실</a></li>
+              <li class=""><a href="portfolio-4cols-3.html">장애인 경사로</a></li>
+              <li class="active"><a href="portfolio-4cols-4.html">종합 안내 촉지도</a></li>
+            </ul>
+            <div class="clearfix">
+            </div>
+            <div class="row">
+              <section id="projects">
+                  <ul id="thumbs" class="portfolio">
+				  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-12" data-type="graphic">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="종합 안내 촉지도 일반 스탠드형" href="img/goods/good016.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good016.jpg" alt="시각장애인이 공공건물, 지하철역 등의 시설을 이용할 때 제일먼저 접근하는 곳에 설치되어 위치정보를 제공하는 장비입니다.(음성유도기와 무선호출기 별도)">
+                  </li>
+                  <li class="item-thumbs span3 design" data-id="id-13" data-type="graphic">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="종합 안내 촉지도 벽부형" href="img/goods/good017.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good017.jpg" alt="종합 안내 촉지도 벽부형은 시각장애인이 공공건물, 지하철역 등의 시설을 이용할 때 제일먼저 접근하는 곳에 설치되어 위치정보를 제공하는 장비입니다.">
+                  </li>
+                  <!-- End Item Project -->
+                </ul>
+              </section>
+            </div>
+          </div>
         </div>
       </div>
-	</section>
-    <footer>
+    </section>
+     <footer>
       <div class="container">
         <div class="row">
           <div class="span3">
@@ -312,12 +275,6 @@
   <script src="js/jquery.ba-cond.min.js"></script>
   <script src="js/jquery.slitslider.js"></script>
   <script src="js/animate.js"></script>
-  <script src="http://prt.map.naver.com/mashupmap/print?key=p1531443098727_-64260178"></script>
-  <!-- naver map -->
-  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=RFqgTE8AdkCacIwHz1vW&submodules=geocoder"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
 
   <!-- Template Custom JavaScript File -->
   <script src="js/custom.js"></script>

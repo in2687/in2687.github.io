@@ -53,7 +53,7 @@
       <div class="container">
         <!-- hidden top area toggle link -->
         <div id="header-hidden-link">
-          <a href="#" class="toggle-link" title="Click!!" data-target=".hidden-top"><i></i>Open</a>
+          <a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
         </div>
         <!-- end toggle link -->
         <div class="row nomargin">
@@ -69,7 +69,6 @@
           <div class="span4">
             <div class="logo">
               <a href="index.html"><img src="img/logo5.png" alt="" class="logo" /></a>
-              <!--<h1>Flat and trendy bootstrap template</h1>-->
             </div>
           </div>
           <div class="span8">
@@ -101,8 +100,8 @@
 						<li><a href="product_04.html">장애인 경사로</a></li>
 						<li><a href="product_05.html">종합 안내 촉지도</a></li>
                       </ul>
-                    </li>
-                    <li class="active">
+                    </li> 
+					<li>
                       <a href="contact.html">오시는 길 </a>
                     </li>
                   </ul>
@@ -120,99 +119,117 @@
         <div class="row">
           <div class="span4">
             <div class="inner-heading">
-              <h2>오시는 길</h2>
+              <h2>장애인<b>점자블럭</b></h2>
             </div>
           </div>
           <div class="span8">
             <ul class="breadcrumb">
               <li><a href="index.html"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
-              <li><span class="highlight">오시는 길</span></li>
+              <li><a href="#">제품소개</a><i class="icon-angle-right"></i></li>
+              <li class="active"><span class="highlight">장애인 점자블럭</span></li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-
-	<!--Naver map -->
     <section id="content">
-	  <div class="container">
+      <div class="container">
         <div class="row">
           <div class="span12">
-		    <h4 class="heading">부경케어건설(주) <strong> 찾아오시는 길</strong><span></span></h4>
-			<div class="wrapper">
-			  <div class="testimonial">
-                <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=RFqgTE8AdkCacIwHz1vW&submodules=geocoder"></script>
-				  <div id="map" style="width: 100%; height: 300px; overflow: hidden;"></div>
-				    <script type="text/javascript">
-					  var oPoint = naver.maps.LatLng(35.076962, 128.981156 ); //LatLng 값이 y, x 좌표
-					  oMap = new naver.maps.Map('map', {
-							activateBicycleMap: false,
-							activateTrafficMap: false,
-							enableDblClickZoom: false,
-							enableDragPan     : true,
-							enableWheelZoom   : true,
-							mapMode           : 0,
-							minMaxLevel       : [
-								1, 14
-							], //표시될 div의 id 입니다.
-							point             : oPoint,
-							zoom              : 11 //기본 지도 줌 크기
-						});
-							  oMap.setCenter(oPoint);
-							  //아래는 위에서 지정한 좌표에 마커를 표시하는 소스 입니다.
-								var markerOptions = {position: oPoint,icon: {
-											 url: 'img/map_point2.png',
-											 size: new naver.maps.Size(49,44),
-										   anchor: new naver.maps.Point(20,44)
-																							   }
-															  };
-							   var oMarker = new naver.maps.Marker(markerOptions);
-					  //icon 이미지를 바꿔서 사용할 수 있습니다.
-					  oMarker.setMap(oMap);
-					  //아래는 사이드에 줌 컨트롤을 추가하는 소스 입니다.
-								oMap.setOptions({
-										  zoomControl: true,
-										  zoomControlOptions: {
-										  position: naver.maps.Position.TOP_LEFT
-																		 }
-													   });                        
-				  </script>
-		        </div>
-				<div class="testimonial">
-					<div class="author aligncenter">
-						<p class="name" ><i class="font-icon-map-marker-2" ></i> 부산광역시 사하구 다대로 277번길 85 <span class="info"> <a href="index.html">부경케어건설(주)</a></span></p>
-						 <p>
-						 <p class="name" ><i class="icon-phone" ></i> 1588-0698</p>
-						 <p>
-						 <p class="name" ><i class="icon-envelope-alt" ></i><a href="mailto:bnkc@naver.com">bnkc@naver.com</a></p>
-
-					</div>				
-				</div>
-			</div>
-		  </div>
-        </div>
-		<div class="row">
-
-          <div class="span12">
-		    <div class="author aligncenter">
-				<p>
-				  <a title="부경케어건설(주) 네이버 지도 보기 새 창" href="https://map.naver.com/?searchCoord=bc4012f8122578ab13b8543a979d22c62a18106acbada4aef0be5ff4c1a65a59&query=64uk64yA66GcIDI3N%2BuyiOq4uCA4NQ%3D%3D&tab=1&lng=c6a89e9bcb1e7c82221828741c23ced0&mapMode=0&mpx=dbce3cf56130061474b4e59c9bfaf0b08ecb22c96f03b61fda61c43ba7d7fad6ad84a18fe861c5892c7b0917d19578923ba234b637418335db85c7cb3796fdb7&lat=9119a4f1a5e390f95647c4fb0dd34df8&dlevel=12&enc=b64&menu=location" target="_blank">
-					<img src="img/naver.jpg" alt="" class="logo" />
-				  </a>
-				  <a title="부경케어건설(주) 다음 지도 보기 새 창" href="http://map.daum.net/?urlX=951814&urlY=443341&q=%EB%B6%80%EC%82%B0+%EC%82%AC%ED%95%98%EA%B5%AC+%EB%8B%A4%EB%8C%80%EB%A1%9C277%EB%B2%88%EA%B8%B8+85" target="_blank">
-					<img src="img/daum.jpg" alt="" class="logo" />
-				  </a>
-				  <a title="부경케어건설(주) 구글 지도 보기 새 창" href="https://goo.gl/maps/QuqTGPLd7o82" target="_blank">
-					<img src="img/google.jpg" alt="" class="logo" />
-				  </a>
-				</p>
-		     </div> 
-		    </div>
-		  </div>
+            <ul class="portfolio-categ ">
+              <li class=""><a href="portfolio-4cols-0.html">All</a></li>
+              <li class="active"><a href="portfolio-4cols-1.html">장애인 점자블럭</a></li>
+              <li class=""><a href="portfolio-4cols-2.html">장애인 화장실</a></li>
+              <li class=""><a href="portfolio-4cols-3.html">장애인 경사로</a></li>
+              <li class=""><a href="portfolio-4cols-4.html">종합 안내 촉지도</a></li>
+            </ul>
+            <div class="clearfix">
+            </div>
+            <div class="row">
+              <section id="projects">
+				<ul id="thumbs" class="portfolio">
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 design" data-id="id-8" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+					<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="자기질 선형 블럭 15T, 18T/매립형" href="img/goods/good001.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good001.jpg" alt="1350℃이상 환원소성기술로 내구성 및 내마모성이 탁월하며 건물 내부에 매립용으로 적합하며, 동파 염려가 없고 변색이 없으며 바닥재와 같이 시공하므로 시공 후 견고하고 건물과 조화가 잘되며 반영구적인 제품입니다.">
+                  </li>
+				  <li class="item-thumbs span3 design" data-id="id-7" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+					<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="자기질 점형블럭 15T, 18T/매립형" href="img/goods/good002.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good002.jpg" alt="1350℃이상 환원소성기술로 내구성 및 내마모성이 탁월하며 건물 내부에 매립용으로 적합하며, 동파 염려가 없고 변색이 없으며 바닥재와 같이 시공하므로 시공 후 견고하고 건물과 조화가 잘되며 반영구적인 제품입니다.">
+                  </li>
+				  <li class="item-thumbs span3 design" data-id="id-6" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+					<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="고강도 선형블럭 30T, 60T/매립형" href="img/goods/good003.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good003.jpg" alt="고강도 복합 혼화제를 혼합하여 고압으로 압축생산되는 제품으로 양생후에는 일반 콘크리트에 비해 강한 강도를 유지하며 폐기시 재활용이 가능하므로 환경문제를 유발하지 않으며 100%재활용이 가능합니다.">
+                  </li>
+				  <li class="item-thumbs span3 design" data-id="id-5" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+					<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="고강도 점형블럭 30T, 60T/매립형" href="img/goods/good004.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good004.jpg" alt="고강도 복합 혼화제를 혼합하여 고압으로 압축생산되는 제품으로 양생후에는 일반 콘크리트에 비해 강한 강도를 유지하며 폐기시 재활용이 가능하므로 환경문제를 유발하지 않으며 100%재활용이 가능합니다.">
+                  </li>
+				   <li class="item-thumbs span3 design" data-id="id-4" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+					<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="고무접착실 선형블럭-논슬립PVC양면테잎형" href="img/goods/good005.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good005.jpg" alt="접착형 점자블록은 바닥면에 접착하는 방법으로 실내에 적합하며 기존 바닥재의 철거없이 시공할 수 있고, 고강력 양면테이프를 사용하여 시공하기 때문에 시간과 능률을 극대화하였으며 제품으로 수명이 다한 후에도 재활용이 가능합니다.">
+                  </li>
+				   <li class="item-thumbs span3 design" data-id="id-3" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+					<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="고무접착실 점형블럭-논슬립PVC양면테잎형" href="img/goods/good006.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good006.jpg" alt="본제품은 복합 PVC재질로 충격과 인장력이 뛰어나며 강한 원심복원력으로 시공 후 꺽임현상이 없습니다.">
+                  </li>
+				   <li class="item-thumbs span3 design" data-id="id-2" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+					<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="철판피스 선형블럭-논슬립감삽형" href="img/goods/good007.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good007.jpg" alt="종전의 피스고정은 금속부분이 60%이상 상층부에 노출되어 생산되었으나, 금속노출을 규제하는 품목으로 제품 중간층에 도금판을 설치하고 상층부와 하단을 PVC또는 우레탄으로 인서트 사출하여 형성된 제품으로 정부가관이나 장애인 단체에 금속노출 규제에 대처한 제품이며 시공 시 바닥면이나 칼블록을 삽입하고 피스로 고정하여 시공함으로써 떨어짐 없이 오래도록 유지할 수 있는 제품으로 안전하게 선택할 수 있습니다.">
+                  </li>
+				   <li class="item-thumbs span3 design" data-id="id-1" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+					<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="철판피스 점형블럭-논슬립감삽형" href="img/goods/good008.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="img/goods/add/good008.jpg" alt="종전의 피스고정은 금속부분이 60%이상 상층부에 노출되어 생산되었으나, 금속노출을 규제하는 품목으로 제품 중간층에 도금판을 설치하고 상층부와 하단을 PVC또는 우레탄으로 인서트 사출하여 형성된 제품으로 정부가관이나 장애인 단체에 금속노출 규제에 대처한 제품이며 시공 시 바닥면이나 칼블록을 삽입하고 피스로 고정하여 시공함으로써 떨어짐 없이 오래도록 유지할 수 있는 제품으로 안전하게 선택할 수 있습니다.">
+                  </li>
+                  <!-- End Item Project -->
+				</ul>
+              </section>
+            </div>
+          </div>
         </div>
       </div>
-	</section>
-    <footer>
+    </section>
+     <footer>
       <div class="container">
         <div class="row">
           <div class="span3">
@@ -312,12 +329,6 @@
   <script src="js/jquery.ba-cond.min.js"></script>
   <script src="js/jquery.slitslider.js"></script>
   <script src="js/animate.js"></script>
-  <script src="http://prt.map.naver.com/mashupmap/print?key=p1531443098727_-64260178"></script>
-  <!-- naver map -->
-  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=RFqgTE8AdkCacIwHz1vW&submodules=geocoder"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
 
   <!-- Template Custom JavaScript File -->
   <script src="js/custom.js"></script>
