@@ -1,6 +1,3 @@
-Thanks for downloading this theme!
+안녕하세요 장애인 노약자 복지 편의시설 전문 시공업체 부경케어건설(주)입니다.
 
-Theme Name: Flattern
-Theme URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+URL: http://www.bnkc.kr
