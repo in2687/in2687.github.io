@@ -7,7 +7,7 @@
 /***************** Configuration *****************/
 
 // Enter your email, where you want to receive the messages.
-$contact_email_to = "in2687@naver.com";
+$contact_email_to = "q3292800@naver.com";
 
 // Subject prefix
 $contact_subject_prefix = "Contat Form Message: " + $_POST["subject"];
